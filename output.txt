@@ -1,5 +1,5 @@
-tokens               lexemes
--------------------------------------------
+tokens               lexemes   
+-----------------------------------------------------
 keyword              while     
 separator            (         
 identifier           s         

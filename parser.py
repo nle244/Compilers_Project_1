@@ -45,7 +45,7 @@ lex = lines[0].split()
 output = lexer(lex)
 
 with open('output.txt', 'w') as out:
-    out.write('{:<20s} {:<10s}'.format('tokens','lexemes\n'))
-    out.write('-----------------------------------------------\n')
+    out.write('{:<20s} {:<10s}'.format('tokens','lexemes'))
+    out.write('\n-----------------------------------------------------\n')
     for each in output:
         out.write('{:<20s} {:<10s}\n'.format(each[0],each[1]))
